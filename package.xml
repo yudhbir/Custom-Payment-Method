@@ -1,0 +1,18 @@
+<?xml version="1.0"?>
+<package>
+    <name>YRS_PaymentMethod</name>
+    <version>0.0.1</version>
+    <stability>stable</stability>
+    <license>Open Software License</license>
+    <channel>local</channel>
+    <extends/>
+    <summary>Adding new Payment Method in onepage </summary>
+    <description>Adding new Payment Method in onepage </description>
+    <notes>YRS_PaymentMethod 0.0.1 version</notes>
+    <authors><author><name>Yudhbir Singh</name><user>Yudhbir</user><email>sachinsingh3066@gmail.com</email></author></authors>
+    <date>2017-03-09</date>
+    <time>05:17:52</time>
+    <contents><target name="magelocal"><dir name="YRS"><dir name="PaymentMethod"><dir name="Block"><dir name="Form"><file name="Payment.php" hash="b4a602bc81460cd5a9d381bc41b23a25"/></dir><file name="Index.php" hash="e35ef461e96b56f529fe51ac0e031c51"/><dir name="Info"><file name="Payment.php" hash="d316f92c431d7dd9f44e96bff35b9840"/></dir></dir><dir name="Helper"><file name="Data.php" hash="3deb68c1c66cc7e10d04fda80d433d97"/></dir><dir name="Model"><file name="PaymentModel.php" hash="162a73d4d556ef4eed68b60b764dcc1a"/></dir><dir name="etc"><file name="12adminhtml.xml" hash="fd75548714a1cd584a11ce2c50a8d4a3"/><file name="adminhtml.xml" hash="76aee1a72551d2559de2cd9c18bb15ea"/><file name="config.xml" hash="c23f08e4b665ccf5d9d752b5c16aca79"/><file name="system.xml" hash="8710294575adb9924ca11ea43c5b9347"/></dir></dir></dir></target><target name="mageetc"><dir name="modules"><file name="YRS_PaymentMethod.xml" hash="da6068ae9f2dbf6a788e4d5be91da012"/></dir></target></contents>
+    <compatible/>
+    <dependencies><required><php><min>5.1.0</min><max>6.0.0</max></php><package><name>YRS_PaymentMethod</name><channel>local</channel><min>1.8</min><max>1.9</max></package></required></dependencies>
+</package>
